@@ -1,11 +1,16 @@
 {
-  "name": "petlab",
+  "name": "hackapet",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pet.cin.ufpe.br/hacka",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-mailchimp-subscribe": "^2.0.2",
+    "react-scripts": "1.1.4",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.81.1",
+    "typeface-eczar": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
