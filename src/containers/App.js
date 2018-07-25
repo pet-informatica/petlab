@@ -3,7 +3,7 @@ import { Container } from "semantic-ui-react";
 import Menus from "./Menus";
 import Footer from "./Footer";
 import Navbar from "../components/Navbar";
-import Gif from "../components/Gif";
+import Logo from "../components/Logo";
 
 export default class App extends Component {
   render() {
@@ -121,7 +121,7 @@ export default class App extends Component {
     return (
       <div>
         <div className="index-page">
-          <Gif />
+          <Logo />
           <div className="index-navbar">
             <Container text>
               <Navbar />

@@ -1,10 +1,10 @@
 .subscribe {
-  background: black;
+  background: #1b1c1d;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-img {
-  max-width: 90%;
+.subscribe img {
+  max-width: 20%;
 }

@@ -1,8 +1,6 @@
 body {
-  background: #080708;
   margin: 0;
   padding: 0;
-  font-family: "Share Tech Mono", monospace;
 }
 
 .index-page {
@@ -16,10 +14,6 @@ body {
   visibility: hidden;
 }
 
-.index-subscribe {
-  background: black;
-}
-
 .index-navbar {
   background: #1b1c1d;
 }
@@ -27,7 +21,7 @@ body {
 .ui.inverted.menu {
   font-size: 17px;
   font-family: "Share Tech Mono", monospace;
-  color: #f7f0f0;
+  color: white;
 }
 
 .ui.segment {
@@ -39,16 +33,4 @@ body {
 .ui.header {
   color: white;
   font-family: "Share Tech Mono", monospace;
-}
-
-.index-logo {
-  margin-top: 20px;
-}
-
-.index-logo-container {
-  text-align: center;
-}
-
-.question{
-  color: rgb(236, 132, 72);
 }

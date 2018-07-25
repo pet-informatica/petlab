@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import logo from "../assets/logo.gif";
-import "../css/gif.css";
+import "../css/logo.css";
 
 export default class Gif extends Component {
   render() {
     return (
       <div className="subscribe">
-        <img src={logo} alt="logo" />
+        <img src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1532479276/PETLab_kfyqbc.svg" />
       </div>
     );
   }
