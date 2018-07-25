@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Navbar from "../components/Navbar";
 import Logo from "../components/Logo";
 
+
 export default class App extends Component {
   render() {
     const sections = [
@@ -16,12 +17,13 @@ export default class App extends Component {
           "https://res.cloudinary.com/dkbuneg9h/image/upload/v1532479276/PETLab_kfyqbc.svg",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut
-            neque eget sapien luctus malesuada in id lacus. Etiam ultricies leo
-            nunc, non volutpat erat eleifend ac. Praesent rhoncus vitae lorem
-            eget accumsan. Donec eu venenatis urna. Suspendisse imperdiet sed
-            tellus at posuere. Proin molestie tempor lectus, ac sagittis erat.
-            Nullam pulvinar risus purus, sed iaculis libero pulvinar porttitor.
+            O PETLab nasce de uma necessidade dos alunos do CIn se envolverem com 
+            atividades de pesquisa em laboratórios e grupos da UFPE.
+            Serão selecionados 12 alunos dos cursos de Ciência de Computação, Engenharia da Computação
+            e Sistemas de Informação, a partir do 5º período. Formando três times, desenvolverão atividades de pesquisa 
+            em nos laboratórios e grupos de pesquisa parceiros. O programa terá um total de 240 horas, sendo necessárias 20h
+            de dedicação semanal. Os projetos desenvolvidos durante o programa são relacionados com as áreas de pesquisa 
+            dos laboratórios parceiros.
           </p>
         )
       },
@@ -30,19 +32,81 @@ export default class App extends Component {
         header: "LIKA",
         floated: "right",
         image:
-          "https://res.cloudinary.com/dkbuneg9h/image/upload/v1532479276/PETLab_kfyqbc.svg",
+          "http://res.cloudinary.com/dkbuneg9h/image/upload/v1532543554/LIKA_kz4zdv.png",
         content: (
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut
-            neque eget sapien luctus malesuada in id lacus. Etiam ultricies leo
-            nunc, non volutpat erat eleifend ac. Praesent rhoncus vitae lorem
-            eget accumsan. Donec eu venenatis urna. Suspendisse imperdiet sed
-            tellus at posuere. Proin molestie tempor lectus, ac sagittis erat.
-            Nullam pulvinar risus purus, sed iaculis libero pulvinar porttitor.
+            O Lika, Laboratório de Imunopatologia Keizo Asami, trabalha em várias linhas de pesquisa
+            relacionadas à saúde e tem como missão "Formar recursos humanos de qualidade e desenvolver
+            métodos, sistemas e produtos biotecnológicos associados a diagnóstico e métodos terapêuticos 
+            humano e animal, visando a melhor qualidade de vida do todos". Um dos projetos que os alunos 
+            terão contato é o HealthDrones, que usa drones para guiar pessoas em espaços públicos com 
+            controle de trajeto baseado em algoritmos genéticos. Você pode saber mais sobre o LIKA em: <a href="https://www.ufpe.br/lika/" target="_blank">https://www.ufpe.br/lika/</a>
+          </p>
+        )
+      },
+
+      {
+        id: "spg",
+        header: "SPG",
+        floated: "left",
+        image:
+          "http://res.cloudinary.com/dkbuneg9h/image/upload/v1532543554/SPG_blw5hs.jpg",
+        content: (
+          <p>
+            O SPG é o Grupo de Produtividade de Software, que investiga e desenvolve ferramentas,
+            técnicas e processos para aumentar níveis de produtividade de software sem comprometer 
+            fatores de qualidade de software e da vida dos desenvolvedores. Você pode saber mais sobre o SPG na   
+            <a href="http://twiki.cin.ufpe.br/twiki/bin/view/SPG" target="_blank"> SPG Wiki</a> e no <a href="https://www.youtube.com/watch?v=xGJnfGNKPsc&t=" target="_blank">Mundo CIn </a>.
+          </p>
+        )
+      },
+
+      {
+        id: "voxar",
+        header: "VOXAR",
+        floated: "right",
+        image:
+          "http://res.cloudinary.com/dkbuneg9h/image/upload/v1532543756/VOXAR_vq2vjq.png",
+        content: (
+          <p>
+            O Voxar Labs realiza projetos de Pesquisa, Desenvolvimento e Inovação em três 
+            grandes áreas, que são visualização, rastreamento e interação natural, todos 
+            convergindo para um grande campo tecnológico que é a realidade aumentada. 
+            Estes são realizados em colaboração com instituições acadêmicas e de pesquisa, 
+            agências governamentais e parceiros do setor industrial, no Brasil e no exterior.
+            Para mais informações você pode consultar o <a href="http://www.cin.ufpe.br/~voxarlabs/" target="_blank"> site</a> e também assistir
+            ao <a href="https://www.youtube.com/watch?v=Ca7i9N3-Izw" target="_blank"> Mundo Cin</a> do Voxar.
+          </p>
+        )
+      },
+      {
+        id: "pet",
+        header: "PET-Informática",
+        floated: "left",
+        image:
+          "http://res.cloudinary.com/dkbuneg9h/image/upload/v1521674491/Logo-PET-Simbolo_qagowa.png",
+        content: (
+          <p>
+            O PET-Informática é um grupo formado por 18 alunos e tutorado por uma professora engajado em atividades
+            que buscam impactar positivamente alunos do CIn melhorando a experiência da graduação e promovendo
+            sucesso acadêmico, além de atrair pessoas para os cursos de tecnologia. Dentro das nossas atividades
+            destacam-se a <a href="http://opei.cin.ufpe.br/" target="_blank"> OPEI - Olimpíada Pernambucana de Informática </a>
+            que mobiliza todo o estado de Pernambuco trazendo alunos de ensino fundamental e médio para resolver problemas 
+            de lógica, matemática e programação visando atrair estes alunos para os cursos de tecnologia; o <a href="https://pet-informatica.github.io/programa-de-ferias/#/" target="_blank"> Curso de Férias </a>
+            que aproxima a comunidade ao CIn onde anualmente, nas férias de verão, promovemos um curso de extensão em programação 
+            com objetivo de disseminar o conhecimento de programação tanto para alunos de ensino médio quanto para alunos de outros cursos de 
+            graduação; o <a href="http://pet.cin.ufpe.br/hacka/" target="_blank"> HackaPET</a> que busca motivar alunos da primeira
+            metade aumentando seu engajamento com programação.  E agora nasce o PETLab, buscando aproximar alunos na reta final dos cursos de CIn de pesquisa e 
+            estabelecendo contatos com áreas da computação de uma forma que vai além das disciplinas. 
+              
           </p>
         )
       }
+
     ];
+
+  
+  
 
     return (
       <div>
