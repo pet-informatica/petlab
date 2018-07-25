@@ -8,7 +8,13 @@ export default class Menus extends Component {
         {this.props.sections.map(section => (
           <div className="menus-section">
             <div className="index-anchor" id={section.id} />
-            <Section title={section.header}>{section.content}</Section>
+            <Section
+              floated={section.floated}
+              title={section.header}
+              image={section.image}
+            >
+              {section.content}
+            </Section>
           </div>
         ))}
       </div>

@@ -23,14 +23,3 @@ body {
   font-family: "Share Tech Mono", monospace;
   color: white;
 }
-
-.ui.segment {
-  color: white;
-  background: #1b1c1d;
-  font-family: "Share Tech Mono", monospace;
-}
-
-.ui.header {
-  color: white;
-  font-family: "Share Tech Mono", monospace;
-}

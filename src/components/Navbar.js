@@ -10,6 +10,8 @@ const items = [
   { href: "#inscricoes", key: "inscricoes", name: "INSCRIÇÕES" }
 ];
 
-const Navbar = () => <Menu inverted borderless items={items} widths={5} stackable/>;
+const Navbar = () => (
+  <Menu inverted borderless items={items} widths={5} stackable />
+);
 
 export default Navbar;
