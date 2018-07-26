@@ -99,7 +99,7 @@ export default class App extends Component {
       },
       {
         id: "pet",
-        header: "PET-Informática",
+        header: "PET-INFORMÁTICA",
         floated: "left",
         image:
           "https://res.cloudinary.com/dkbuneg9h/image/upload/v1521674491/Logo-PET-Simbolo_qagowa.png",
@@ -131,6 +131,31 @@ export default class App extends Component {
             programação. E agora nasce o PETLab, buscando aproximar alunos na
             reta final dos cursos de CIn de pesquisa e estabelecendo contatos
             com áreas da computação de uma forma que vai além das disciplinas.
+          </p>
+        )
+      },
+      {
+        id: "edital",
+        header: "EDITAL",
+        floated: "right",
+        image:
+          "",
+        content: (
+          <p>
+            Coming soon...
+          </p>
+        )
+      }
+      ,
+      {
+        id: "inscricoes",
+        header: "INSCRIÇÕES",
+        floated: "right",
+        image:
+          "",
+        content: (
+          <p>
+            Coming soon...
           </p>
         )
       }
