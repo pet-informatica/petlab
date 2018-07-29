@@ -1,8 +1,8 @@
 {
-  "name": "hackapet",
+  "name": "petlab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pet.cin.ufpe.br/hacka",
+  "homepage": "https://pet.cin.ufpe.br/lab",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
