@@ -142,7 +142,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Coming soon...
+            Para ver o edital, acesse o link: <a href="https://goo.gl/z14sxW" title="edital"/>
           </p>
         )
       }
@@ -155,7 +155,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Coming soon...
+            Para se inscrever, acesso o link: <a href="https://goo.gl/rQkAkK" title="edital"/>
           </p>
         )
       }
