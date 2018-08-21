@@ -45,7 +45,7 @@ export default class App extends Component {
             HealthDrones, que usa drones para guiar pessoas em espaços públicos
             com controle de trajeto baseado em algoritmos genéticos. Você pode
             saber mais sobre o LIKA em:{" "}
-            <a href="https://www.ufpe.br/lika/">https://www.ufpe.br/lika/</a>
+            <a target="_blank" href="https://www.ufpe.br/lika/">https://www.ufpe.br/lika/</a>
           </p>
         )
       },
@@ -63,12 +63,12 @@ export default class App extends Component {
             produtividade de software sem comprometer fatores de qualidade de
             software e da vida dos desenvolvedores. Você pode saber mais sobre o
             SPG na
-            <a href="http://twiki.cin.ufpe.br/twiki/bin/view/SPG">
+            <a target="_blank" href="http://twiki.cin.ufpe.br/twiki/bin/view/SPG">
               {" "}
               SPG Wiki
             </a>{" "}
             e no{" "}
-            <a href="https://www.youtube.com/watch?v=xGJnfGNKPsc&t=">
+            <a target="_blank" href="https://www.youtube.com/watch?v=xGJnfGNKPsc&t=">
               Mundo CIn{" "}
             </a>.
           </p>
@@ -90,9 +90,9 @@ export default class App extends Component {
             colaboração com instituições acadêmicas e de pesquisa, agências
             governamentais e parceiros do setor industrial, no Brasil e no
             exterior. Para mais informações você pode consultar o{" "}
-            <a href="http://www.cin.ufpe.br/~voxarlabs/"> site</a> e também
+            <a target="_blank" href="http://www.cin.ufpe.br/~voxarlabs/"> site</a> e também
             assistir ao{" "}
-            <a href="https://www.youtube.com/watch?v=Ca7i9N3-Izw"> Mundo Cin</a>{" "}
+            <a target="_blank" href="https://www.youtube.com/watch?v=Ca7i9N3-Izw"> Mundo Cin</a>{" "}
             do Voxar.
           </p>
         )
@@ -105,28 +105,28 @@ export default class App extends Component {
           "https://res.cloudinary.com/dkbuneg9h/image/upload/v1521674491/Logo-PET-Simbolo_qagowa.png",
         content: (
           <p>
-            O <a href="https://pet.cin.ufpe.br">PET-Informática</a> é um grupo
+            O <a target="_blank" href="https://pet.cin.ufpe.br">PET-Informática</a> é um grupo
             formado por 18 alunos e tutorado por uma professora engajado em
             atividades que buscam impactar positivamente alunos do{" "}
-            <a href="http://www2.cin.ufpe.br/site/index.php">CIn</a> melhorando
+            <a target="_blank" href="http://www2.cin.ufpe.br/site/index.php">CIn</a> melhorando
             a experiência da graduação e promovendo sucesso acadêmico, além de
             atrair pessoas para os cursos de tecnologia. Dentro das nossas
             atividades destacam-se a{" "}
-            <a href="https://opei.cin.ufpe.br">
+            <a target="_blank" href="https://opei.cin.ufpe.br">
               OPEI - Olimpíada Pernambucana de Informática
             </a>{" "}
             que mobiliza todo o estado de Pernambuco trazendo alunos de ensino
             fundamental e médio para resolver problemas de lógica, matemática e
             programação visando atrair estes alunos para os cursos de
             tecnologia; o{" "}
-            <a href="https://pet-informatica.github.io/programa-de-ferias">
+            <a target="_blank" href="https://pet-informatica.github.io/programa-de-ferias">
               Curso de Férias
             </a>
             que aproxima a comunidade ao CIn onde anualmente, nas férias de
             verão, promovemos um curso de extensão em programação com objetivo
             de disseminar o conhecimento de programação tanto para alunos de
             ensino médio quanto para alunos de outros cursos de graduação; o
-            <a href="https://pet.cin.ufpe.br/hacka">HackaPET</a> que busca
+            <a target="_blank" href="https://pet.cin.ufpe.br/hacka">HackaPET</a> que busca
             motivar alunos do início do curso aumentando seu engajamento com
             programação. E agora nasce o PETLab, buscando aproximar alunos na
             reta final dos cursos de CIn de pesquisa e estabelecendo contatos
@@ -142,7 +142,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Para ver o edital, acesse o link: <a href="https://goo.gl/z14sxW" title="edital"/>
+            Para ver o edital, acesse o link: <a target="_blank" href="https://goo.gl/z14sxW" title="edital">https://goo.gl/z14sxW</a>
           </p>
         )
       }
@@ -155,7 +155,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Para se inscrever, acesso o link: <a href="https://goo.gl/rQkAkK" title="edital"/>
+            Para se inscrever, acesso o link: <a target="_blank" href="https://goo.gl/rQkAkK" title="inscrições">https://goo.gl/rQkAkK</a>
           </p>
         )
       }
