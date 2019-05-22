@@ -11,6 +11,7 @@ import "../css/section.css";
 
 export default class Section extends Component {
   render() {
+    const center = this.props.floated === "center";
     const left =
       this.props.floated === "left"
         ? this.renderImageColumn()
@@ -19,6 +20,7 @@ export default class Section extends Component {
       this.props.floated === "left"
         ? this.renderTextColumn()
         : this.renderImageColumn();
+    console.log('penis')
     return (
       <Container text className="section-container">
         <Header
@@ -33,10 +35,10 @@ export default class Section extends Component {
         </Header>
         <Segment>
           <br/>
-          <Grid stackable columns={2}>
+          <Grid stackable columns={center ? 1:2}>
             <Grid.Row>
               {left}
-              {right}
+              {center ? null:right}
             </Grid.Row>
           </Grid>
           <br/>
@@ -46,7 +48,8 @@ export default class Section extends Component {
   }
 
   renderTextColumn = () => {
-    return <Grid.Column textAlign="justified" width={12}>{this.props.children}</Grid.Column>;
+    const center = this.props.floated === "center";
+    return <Grid.Column textAlign="justified" width={center ? 16:12}>{this.props.children}</Grid.Column>;
   };
 
   renderImageColumn = () => {

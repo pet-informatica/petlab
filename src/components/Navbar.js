@@ -6,6 +6,7 @@ const items = [
   { href: "#lika", key: "lika", name: "LIKA" },
   { href: "#spg", key: "spg", name: "SPG" },
   { href: "#voxar", key: "voxar", name: "VOXAR" },
+  { href: "#relatos", key: "relatos", name: "RELATOS" },
   { href: "#pet", key: "pet", name: "PET" },
   { href: "#edital", key: "edital", name: "EDITAL" },
   { href: "#inscricoes", key: "inscricoes", name: "INSCRIÇÕES" }

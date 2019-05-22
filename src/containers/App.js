@@ -16,13 +16,20 @@ export default class App extends Component {
           "https://res.cloudinary.com/dkbuneg9h/image/upload/v1532479276/PETLab_kfyqbc.svg",
         content: (
           <p>
-            O PETLab nasce de uma necessidade dos alunos do CIn se envolverem
-            com atividades de pesquisa em laboratórios e grupos da UFPE. Serão
-            selecionados 12 alunos dos cursos de Ciência de Computação,
-            Engenharia da Computação e Sistemas de Informação, a partir do 5º
+            O PETLab é um projeto organizado em uma parceria do PET com laboratórios de pesquisas 
+            e desenvolvimento da UFPE (Nessa edição teremos a presença dos laboratórios 
+            VOXAR, SPG e LIKA) visando entregar uma experiência de vivência aos alunos de 
+            graduação nas áreas correlacionadas a cada um dos laboratórios envolvidos. 
+            Durante o programa cada um dos participantes terá a oportunidade de passar um 
+            mês em cada laboratório desenvolvendo pesquisas e projetos com a tutoria e 
+            orientação de profissionais dessa área de atuação, providenciando ao estudante 
+            um maior aprofundamento na área e abrindo novos horizontes de possibilidades de atuação.
+            Em sua segunda edição serão selecionados 12 alunos dos cursos de Ciência de Computação,
+            Engenharia da Computação e Sistemas de Informação, a partir do 3º
             período. Formando três times, desenvolverão atividades de pesquisa
-            em nos laboratórios e grupos de pesquisa parceiros. O programa terá
-            um total de 240 horas, sendo necessárias 20h de dedicação semanal.
+            em nos laboratórios e grupos de pesquisa parceiros. O programa requer 
+            20h de dedicação semanal com periodo de duração a ser definido entre 
+            os labs.
             Os projetos desenvolvidos durante o programa são relacionados com as
             áreas de pesquisa dos laboratórios parceiros.
           </p>
@@ -98,11 +105,68 @@ export default class App extends Component {
         )
       },
       {
+        id: "relatos",
+        header: "RELATOS",
+        floated: "center",
+        content: (
+          <p>
+            "Eu estava no penúltimo período da graduação em engenharia da computação, 
+            ainda não sabia em que área ia fazer meu TCC, queria ingressar no mestrado 
+            mas assim como o TCC não sabia a área. Esse foi o principal motivo por ter 
+            me interessado pelo PetLab. O programa iria me fazer ter experiência em três 
+            laboratórios diferentes com áreas de pesquisas diferentes e assim seria muito 
+            mais fácil fazer minha escolha e conhecer orientadores para alcançar meus interesses.
+            <br/><br/>
+            Com o PetLab pude descobrir como é feito a pesquisa no Voxar Labs, conhecer o 
+            SPG e aprender de engenharia de software e descobrir o quanto de tecnologia e 
+            computação o Lika se envolve em seus trabalhos.
+            <br/><br/>
+            Vejo que os alunos do CIn demoram muito para conhecer os laboratórios, e assim, 
+            se engajar em suas respectivas áreas. Em outros centros isso é bem diferente. 
+            Por exemplo no Lika, que recebe alunos ainda no primeiro período do curso de graduação. 
+            Isso pra mim é o principal ponto de contribuição do PetLab.
+            <br/><br/>
+            Minha experiência no programa começou no SPG, onde aprendi sobre mineração e visualização 
+            de dados aplicado em pesquisa para melhorar a produtividade de software. Os resultados 
+            obtidos em um mês podem dar início de um trabalho bem maior como um mestrado ou doutorado.
+            <br/><br/>
+            Em seguida fui para o Lika e conheci as diversas pesquisas do laboratório que envolvem 
+            tecnologia de várias áreas diferentes: robótica, inteligência artificial, ciência dos 
+            dados, entre outras. Praticamente tive a liberdade de expor qual área da computação 
+            queria trabalhar e os pesquisadores do laboratório conseguiam associar isto a algum 
+            projeto que eles possuem. Assisti seminários de biologia, apresentei seminários de 
+            aprendizagem de máquina (área que escolhi trabalhar no laboratório) para que em conjunto 
+            com os pesquisadores e o restante do meu grupo, pudéssemos encontrar um ponto de encontro 
+            e desenvolver algo com biotecnologia.
+            <br/><br/>
+            No Voxar Labs, o último laboratório que passei no programa, aprendi como é feita a 
+            pesquisa científica no laboratório e metodologias de levantamento bibliográfico que 
+            vou utilizar em minhas próximas pesquisas. Aprendi sobre visão computacional, realidade 
+            aumentada e desenvolvimento mobile. Gostei bastante do laboratório, do que faziam e 
+            como faziam.
+            <br/><br/>
+            Ao final do programa tinha decidido que queria pesquisar mais sobre realidade virtual 
+            e aumentada, decidi continuar no Voxar Labs, participei do processo seletivo e fui 
+            selecionado para estágio no laboratório. Hoje sou membro do Voxar e pretendo seguir 
+            para o mestrado no laboratório.
+            <br/><br/>
+            O PetLab além de atender o que eu pretendia inicialmente, me proporcionou outras 
+            experiências como trabalho em equipe, conhecer profissionais excelentes, 
+            responsabilidades a nível de estágio, prática em programação de diferentes 
+            áreas e reconhecimento por todo o trabalho desenvolvido.
+            <br/><br/>
+            Recomendo bastante o programa para quem quer conhecer mais de como a tecnologia pode 
+            ser aplicada em diferentes áreas e quer continuar explorando ainda mais após o término 
+            do programa."
+          </p>
+        )
+      },
+      {
         id: "pet",
         header: "PET-INFORMÁTICA",
         floated: "left",
         image:
-          "https://res.cloudinary.com/dkbuneg9h/image/upload/v1521674491/Logo-PET-Simbolo_qagowa.png",
+          "https://res.cloudinary.com/dkbuneg9h/image/upload/v1554506920/Clypeasteroida_k7h4kl.svg",
         content: (
           <p>
             O <a target="_blank" href="https://pet.cin.ufpe.br">PET-Informática</a> é um grupo
@@ -142,7 +206,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Para ver o edital, acesse o link: <a target="_blank" href="https://goo.gl/z14sxW" title="edital">https://goo.gl/z14sxW</a>
+            Para ver o edital, <a target="_blank" href="https://drive.google.com/file/d/1uHFul1BfMvbETgP-2eTD8noJeJv9eWNC/view?usp=sharing" title="edital">clique aqui.</a>
           </p>
         )
       }
@@ -155,7 +219,7 @@ export default class App extends Component {
           "",
         content: (
           <p>
-            Para se inscrever, acesso o link: <a target="_blank" href="https://goo.gl/rQkAkK" title="inscrições">https://goo.gl/rQkAkK</a>
+            Para se inscrever, acesso o link: <a target="_blank" href="https://forms.gle/FeeZfTkhUZmTdJ3U8" title="inscrições">https://forms.gle/FeeZfTkhUZmTdJ3U8</a>
           </p>
         )
       }

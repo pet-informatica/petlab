@@ -5,8 +5,8 @@ export default class Menus extends Component {
   render() {
     return (
       <div>
-        {this.props.sections.map(section => (
-          <div className="menus-section">
+        {this.props.sections.map((section, i) => (
+          <div className="menus-section" key={i}>
             <div className="index-anchor" id={section.id} />
             <Section
               floated={section.floated}
